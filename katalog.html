@@ -1,0 +1,503 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Detail Produk</title>
+</head>
+
+<body>
+
+    <div class="row topmenu">
+        <div class="col-2">
+            <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+        </div>
+        <div class="col-10">
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">JOIN</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">LOGIN</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pemesanan.html"><img src="images/cart.png" height="25px" width=""></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">HOME<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="katalog.html">PRODUK</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pemesanan.html">PEMESANAN</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">KONTAK</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tentang.html">ALAMAT</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+
+    <h4 class="text-center font-weight-bold m-4">Katalog Produk Panguripan</h4>
+    <div class="row mx-auto" style="padding-bottom: 50px;">
+        <!-- produk_1 -->
+        <div class="card mr-5 ml-5" style="width: 13rem;">
+            <img src="images/jersey.jpg" class="card-img-top">
+            <div class="card-body bg-light">
+                <h5 class="card-title">Jersey Printing</h5>
+                <p class="card-text">
+                    <h6>Min Order 12 pcs</h6>
+                </p><br>
+                <a href="#" id="tombol1" class="btn btn-secondary" data-target="#produk1" data-toggle="modal">Detail</a>
+                <a href="#" class="btn btn-dark">Pesan</a>
+            </div>
+        </div>
+
+        <!-- produk_2 -->
+        <div class="card mr-5 ml-5" style="width: 13rem;">
+            <img src="images/kaos.jpg" class="card-img-top">
+            <div class="card-body bg-light">
+                <h5 class="card-title">Kaos Sablon</h5>
+                <p class="card-text">
+                    <h6>Min Order 12 pcs</h6>
+                </p><br>
+                <a href="#" id="tombol2" class="btn btn-secondary" data-target="#produk2" data-toggle="modal">Detail</a>
+                <a href="#" class="btn btn-dark">Pesan</a>
+            </div>
+        </div>
+
+        <!-- produk_3 -->
+        <div class="card mr-5 ml-5" style="width: 13rem;">
+            <img src="images/Topi.jpg" class="card-img-top">
+            <div class="card-body bg-light">
+                <h5 class="card-title">Topi</h5>
+                <p class="card-text">
+                    <h6>Min Order 20 pcs</h6>
+                </p><br>
+                <a href="#" id="tombol3" class="btn btn-secondary" data-target="#produk3" data-toggle="modal">Detail</a>
+                <a href="#" class="btn btn-dark">Pesan</a>
+            </div>
+        </div>
+
+        <!-- produk_4 -->
+        <div class="card mr-5 ml-5" style="width: 13rem;">
+            <img src="images/Kemeja.jpg" class="card-img-top">
+            <div class="card-body bg-light">
+                <h5 class="card-title">Kemeja</h5>
+                <p class="card-text">
+                    <h6>Min Order 12 pcs</h6>
+                </p><br>
+                <a href="#" id="tombol4" class="btn btn-secondary" data-target="#produk4" data-toggle="modal">Detail</a>
+                <a href="#" class="btn btn-dark">Pesan</a>
+            </div>
+        </div>
+        <!-- produk_1 -->
+        <div class="card mr-5 ml-5" style="width: 13rem;">
+            <img src="images/jersey.jpg" class="card-img-top">
+            <div class="card-body bg-light">
+                <h5 class="card-title">Jersey Printing</h5>
+                <p class="card-text">
+                    <h6>Min Order 12 pcs</h6>
+                </p><br>
+                <a href="#" id="tombol5" class="btn btn-secondary" data-target="#produk1" data-toggle="modal">Detail</a>
+                <a href="#" class="btn btn-dark">Pesan</a>
+            </div>
+        </div>
+
+        <!-- produk_2 -->
+        <div class="card mr-5 ml-5" style="width: 13rem;">
+            <img src="images/kaos.jpg" class="card-img-top">
+            <div class="card-body bg-light">
+                <h5 class="card-title">Kaos Sablon</h5>
+                <p class="card-text">
+                    <h6>Min Order 12 pcs</h6>
+                </p><br>
+                <a href="#" id="tombol6" class="btn btn-secondary" data-target="#produk2" data-toggle="modal">Detail</a>
+                <a href="#" class="btn btn-dark">Pesan</a>
+            </div>
+        </div>
+
+        <!-- produk_3 -->
+        <div class="card mr-5 ml-5" style="width: 13rem;">
+            <img src="images/Topi.jpg" class="card-img-top">
+            <div class="card-body bg-light">
+                <h5 class="card-title">Topi</h5>
+                <p class="card-text">
+                    <h6>Min Order 20 pcs</h6>
+                </p><br>
+                <a href="#" id="tombol7" class="btn btn-secondary" data-target="#produk3" data-toggle="modal">Detail</a>
+                <a href="#" class="btn btn-dark">Pesan</a>
+            </div>
+        </div>
+
+        <!-- produk_4 -->
+        <div class="card mr-5 ml-5" style="width: 13rem;">
+            <img src="images/Kemeja.jpg" class="card-img-top">
+            <div class="card-body bg-light">
+                <h5 class="card-title">Kemeja</h5>
+                <p class="card-text">
+                    <h6>Min Order 12 pcs</h6>
+                </p><br>
+                <a href="#" id="tombol8" class="btn btn-secondary" data-target="#produk4" data-toggle="modal">Detail</a>
+                <a href="#" class="btn btn-dark">Pesan</a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <!-- Modal_1-->
+    <div class="modal" id="produk1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title" style="font-weight:bold">Keterangan Produk</h4>
+                    <button type="button" id="x1" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="images/Jersey.jpg">
+                        </div>
+
+                        <div class="col-md-8">
+                            <table class="table table-borderless">
+                                <tr>
+                                    <th>Nama produk</th>
+                                    <td>Jersey Printing</td>
+                                </tr>
+                                <tr>
+                                    <th>Harga</th>
+                                    <td>RP.135.000 / pcs</td>
+                                </tr>
+                                <tr>
+                                    <th>Bahan</th>
+                                    <td>Dri-fit Piqee</td>
+                                </tr>
+                                <tr>
+                                    <th>Min Order</th>
+                                    <td>12 pcs</td>
+                                </tr>
+                                <tr>
+                                    <th>Desain</th>
+                                    <td>Bebas</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" id="back1" class="btn btn-dark" data-dismiss="modal">Kembali</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Pesan</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Modal_1-->
+    <div class="modal" id="produk2">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title" style="font-weight:bold">Keterangan Produk</h4>
+                    <button type="button" id="x2" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="images/kaos.jpg">
+                        </div>
+
+                        <div class="col-md-8">
+                            <table class="table table-borderless">
+                                <tr>
+                                    <th>Nama produk</th>
+                                    <td>Kaos Sablon</td>
+                                </tr>
+                                <tr>
+                                    <th>Harga</th>
+                                    <td>RP.65.000 / pcs</td>
+                                </tr>
+                                <tr>
+                                    <th>Bahan</th>
+                                    <td>Cotton Combed</td>
+                                </tr>
+                                <tr>
+                                    <th>Min Order</th>
+                                    <td>12 pcs</td>
+                                </tr>
+                                <tr>
+                                    <th>Desain</th>
+                                    <td>Bebas</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" id="back2" class="btn btn-dark" data-dismiss="modal">Kembali</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Pesan</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Modal_1-->
+    <div class="modal" id="produk3">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title" style="font-weight:bold">Keterangan Produk</h4>
+                    <button type="button" id="x3" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="images/topi.jpg">
+                        </div>
+
+                        <div class="col-md-8">
+                            <table class="table table-borderless">
+                                <tr>
+                                    <th>Nama produk</th>
+                                    <td>Topi</td>
+                                </tr>
+                                <tr>
+                                    <th>Harga</th>
+                                    <td>RP.35.000 / pcs</td>
+                                </tr>
+                                <tr>
+                                    <th>Bahan</th>
+                                    <td>Premium</td>
+                                </tr>
+                                <tr>
+                                    <th>Min Order</th>
+                                    <td>20 pcs</td>
+                                </tr>
+                                <tr>
+                                    <th>Desain</th>
+                                    <td>Bebas</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" id="back3" class="btn btn-dark" data-dismiss="modal">Kembali</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Pesan</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Modal_1-->
+    <div class="modal" id="produk4">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title" style="font-weight:bold">Keterangan Produk</h4>
+                    <button type="button" id="x4" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="images/Kemeja.jpg">
+                        </div>
+
+                        <div class="col-md-8">
+                            <table class="table table-borderless">
+                                <tr>
+                                    <th>Nama produk</th>
+                                    <td>Kemeja/Korsa</td>
+                                </tr>
+                                <tr>
+                                    <th>Harga</th>
+                                    <td>RP.110.000 / pcs</td>
+                                </tr>
+                                <tr>
+                                    <th>Bahan</th>
+                                    <td>Nagata</td>
+                                </tr>
+                                <tr>
+                                    <th>Min Order</th>
+                                    <td>12 pcs</td>
+                                </tr>
+                                <tr>
+                                    <th>Desain</th>
+                                    <td>Bebas</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" id="back4" class="btn btn-dark" data-dismiss="modal">Kembali</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Pesan</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row footMenu">
+        <div class="col">
+            <nav class="nav flex-column" style="font-weight:bold">
+                <a class="nav-link" href="tentang.html">Tentang Kami</a>
+                <a class="nav-link" href="#">Daftar Member</a>
+                <a class="nav-link" href="#">Daftar Reseller</a>
+            </nav>
+        </div>
+        <div class="col">
+            <nav class="nav flex-column">
+                <a class="nav-link" href="#" style="font-weight:bold">Bantuan</a>
+                <a class="nav-link" href="pemesanan.html">Pemesanan</a>
+                <a class="nav-link" href="#">Pengembalian</a>
+                <a class="nav-link" href="#">Pengiriman</a>
+                <a class="nav-link" href="#">Proses Produksi</a>
+            </nav>
+        </div>
+        <div class="col">
+            <nav class="nav flex-column">
+                <a class="nav-link" href="#" style="font-weight:bold">Tetang Kami</a>
+                <a class="nav-link" href="tentang.html">Alamat</a>
+                <a class="nav-link" href="#">Kontak</a>
+                <a class="nav-link" href="#">Berita</a>
+            </nav>
+        </div>
+        <div class="col">
+
+        </div>
+    </div>
+
+    <div class="row footer">
+        <div class="col-sm">
+            <a href="#">Panguripan Temanggung</a>
+        </div>
+        <div class="col-sm">
+            <a href="#">Copyright @ Panguripan Apparel</a>
+        </div>
+        <div class="col-sm">
+            <a href="#">Panguripan Jogja</a>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#tombol1').click(function () {
+                $('#produk1 , #bg').fadeIn("slow");
+            });
+            $('#back1').click(function () {
+                $('#produk1 , #bg').fadeOut("slow");
+            });
+            $('#tombol2').click(function () {
+                $('#produk2 , #bg').fadeIn("slow");
+            });
+            $('#back2').click(function () {
+                $('#produk2 , #bg').fadeOut("slow");
+            });
+            $('#tombol3').click(function () {
+                $('#produk3 , #bg').fadeIn("slow");
+            });
+            $('#back3').click(function () {
+                $('#produk3 , #bg').fadeOut("slow");
+            });
+            $('#tombol4').click(function () {
+                $('#produk4 , #bg').fadeIn("slow");
+            });
+            $('#back4').click(function () {
+                $('#produk4 , #bg').fadeOut("slow");
+            });
+            $('#tombol5').click(function () {
+                $('#produk1 , #bg').fadeIn("slow");
+            });
+            $('#back1').click(function () {
+                $('#produk1 , #bg').fadeOut("slow");
+            });
+            $('#tombol6').click(function () {
+                $('#produk2 , #bg').fadeIn("slow");
+            });
+            $('#back2').click(function () {
+                $('#produk2 , #bg').fadeOut("slow");
+            });
+            $('#tombol7').click(function () {
+                $('#produk3 , #bg').fadeIn("slow");
+            });
+            $('#back3').click(function () {
+                $('#produk3 , #bg').fadeOut("slow");
+            });
+            $('#tombol8').click(function () {
+                $('#produk4 , #bg').fadeIn("slow");
+            });
+            $('#back4').click(function () {
+                $('#produk4 , #bg').fadeOut("slow");
+            });
+            $('#x1').click(function () {
+                $('#produk1 , #bg').fadeOut("slow");
+            });
+            $('#x2').click(function () {
+                $('#produk2 , #bg').fadeOut("slow");
+            });
+            $('#x3').click(function () {
+                $('#produk3 , #bg').fadeOut("slow");
+            });
+            $('#x4').click(function () {
+                $('#produk4 , #bg').fadeOut("slow");
+            });
+
+        })
+    </script>
+
+</body>
+
+</html>

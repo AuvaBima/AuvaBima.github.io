@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Pemesanan Produk</title>
+</head>
+
+<body>
+
+    <div class="row topmenu">
+        <div class="col-2">
+            <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+        </div>
+        <div class="col-10">
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">JOIN</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">LOGIN</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pemesanan.html"><img src="images/cart.png" height="25px" width=""></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">HOME<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="katalog.html">PRODUK</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pemesanan.html">PEMESANAN</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">KONTAK</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tentang.html">ALAMAT</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="row justify-content-center" style="padding: 30px">
+        <div class="col-md-8">
+            <div class="card text-center">
+                <div class="card-header">
+                    Form Register
+                </div>
+                <form>
+                    <div class="card-body">
+                        <div class="row" style="padding-bottom: 10px">
+                            <div class="col-md-2">
+                                <label>Email</label>
+                            </div>
+                            <div class="col-md-10">
+                                <input class="form-control" type="email" name="email" placeholder="Isikan Email anda">
+                            </div>
+                        </div>
+                        <div class="row" style="padding-bottom: 10px">
+                            <div class="col-md-2">
+                                <label>Nomer WA</label>
+                            </div>
+                            <div class="col-md-10">
+                                <input class="form-control" type="text" name="nomer"
+                                    placeholder="Isikan Nomer Whatsapp">
+                            </div>
+                        </div>
+                        <div class="row" style="padding-bottom: 10px">
+                            <div class="col-md-2">
+                                <label>Nama Pemesan</label>
+                            </div>
+                            <div class="col-md-10">
+                                <input class="form-control" type="text" name="nama" placeholder="Isikan Nama anda">
+                                <small id="passwordHelpBlock" class="form-text text-muted">
+                                    *Isikan Nama Sesuai KTP !
+                                </small>
+                            </div>
+                        </div>
+                        <div class="row" style="padding-bottom: 10px">
+                            <div class="col-md-2">
+                                <label>Jenis Pesanan</label>
+                            </div>
+                            <div class="col-md-10">
+                                <select class="form-control" name="tipe_pesan">
+                                    <option value="Jersey">
+                                        Jersey
+                                    </option>
+                                    <option value="Kaos">
+                                        Kaos
+                                    </option>
+                                    <option value="Topi">
+                                        Topi
+                                    </option>
+                                    <option value="Kemja">
+                                        Kemeja
+                                    </option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row" style="padding-bottom: 10px">
+                            <div class="col-md-2">
+                                <label>Jumlah Pesanan</label>
+                            </div>
+                            <div class="col-md-10">
+                                <input class="form-control" type="number" name="jumlah"
+                                    placeholder="Isikan Jumlah Pesanan">
+                            </div>
+                        </div>
+                        <div class="row" style="padding-bottom: 10px">
+                            <div class="col-md-2">
+                                <label>Detail Pesanan</label>
+                            </div>
+                            <div class="col-md-10">
+                                <textarea class="form-control" name="detail"
+                                    placeholder="Isikan Detail Pesanan Anda"></textarea>
+                            </div>
+                        </div>
+                        <div class="row" style="padding-bottom: 10px">
+                            <div class="col-md-2">
+                                <label>Alamat</label>
+                            </div>
+                            <div class="col-md-10">
+                                <textarea class="form-control" name="alamat"
+                                    placeholder="Isikan Alamat lengkap anda"></textarea>
+                            </div>
+                        </div>
+                        <div class="row" style="padding-bottom: 10px">
+                            <div class="col-md-2">
+                                <label>Tipe Pemesanan</label>
+                            </div>
+                            <div class="col-md-10">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="tipe_cstm" value="Customer">
+                                    <label class="form-check-label">
+                                        Customer</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="tipe_cstm" value="Reseller">
+                                    <label class="form-check-label">
+                                        Reseller</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer text-muted" style="padding-bottom: 10px">
+                            <input class="btn btn-primary" type="submit" name="daftar" id="btn_sub">
+                            <input class="btn btn-danger" type="reset" name="reset" id="btn_res">
+                        </div>
+                    </div>
+            </div>
+        </div>
+        </form>
+    </div>
+    </div>
+
+
+    <div class="row footMenu">
+        <div class="col">
+            <nav class="nav flex-column" style="font-weight:bold">
+                <a class="nav-link" href="tentang.html">Tentang Kami</a>
+                <a class="nav-link" href="#">Daftar Member</a>
+                <a class="nav-link" href="#">Daftar Reseller</a>
+            </nav>
+        </div>
+        <div class="col">
+            <nav class="nav flex-column">
+                <a class="nav-link" href="#" style="font-weight:bold">Bantuan</a>
+                <a class="nav-link" href="pemesanan.html">Pemesanan</a>
+                <a class="nav-link" href="#">Pengembalian</a>
+                <a class="nav-link" href="#">Pengiriman</a>
+                <a class="nav-link" href="#">Proses Produksi</a>
+            </nav>
+        </div>
+        <div class="col">
+            <nav class="nav flex-column">
+                <a class="nav-link" href="#" style="font-weight:bold">Tetang Kami</a>
+                <a class="nav-link" href="tentang.html">Alamat</a>
+                <a class="nav-link" href="#">Kontak</a>
+                <a class="nav-link" href="#">Berita</a>
+            </nav>
+        </div>
+        <div class="col">
+
+        </div>
+    </div>
+
+    <div class="row footer">
+        <div class="col-sm">
+            <a href="#">Panguripan Temanggung</a>
+        </div>
+        <div class="col-sm">
+            <a href="#">Copyright @ Panguripan Apparel</a>
+        </div>
+        <div class="col-sm">
+            <a href="#">Panguripan Jogja</a>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#btn_sub").click(function () {
+                alert("Terima Kasih Atas Kepercayaan Anda \nPesanan Anda Sedang Diproses \nInformasi Pemesanan Hubungi Admin")
+            });
+
+        });
+    </script>
+</body>
+
+</html>
